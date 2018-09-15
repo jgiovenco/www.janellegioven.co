@@ -243,6 +243,14 @@ footer img {
   padding: 0;
 }
 
-.squares {
+/* MEDIA QUERIES */
 
-}
+@media (max-width: 768px) {
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .mobile-show  {
+    display: block;
+  }
