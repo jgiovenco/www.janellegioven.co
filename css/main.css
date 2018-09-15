@@ -112,11 +112,12 @@ nav img {
 /* SERVICES */
 .widtext {
   min-height: 50vh;
-  padding: 5%;
+  /* padding: 2%; */
 }
 
 .widtext p {
   margin: 5px;
+  padding: 0px 20px;
   font-size: 1rem;
   line-height: 2rem;
   letter-spacing: 0.08rem;
@@ -149,6 +150,14 @@ nav img {
 .portfolio a:hover {
   color: white;
   background-color: black;
+}
+
+.portfolio p {
+  margin:10px;
+}
+
+.portfolio h4 {
+  margin: 0;
 }
 
 /* CONTACT */
