@@ -7,7 +7,7 @@
     <!-- - - - - - - CSS - - - - - - -->
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/gridlex.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Nanum+Myeongjo" rel="stylesheet">
 
 
   <!-- Personal Stylesheets -->
@@ -16,10 +16,10 @@
   <body>
     <!-- - - - - - - - landing page - - - - - - - --->
   <nav class="grid-middle-center">
-    <a href="#about"> about </a>
-    <a href="#services"> what i do </a>
+    <a href="#about"> who </a>
+    <a href="#services"> what </a>
     <a href="#home"> <img src="img/logo.png"> </a>
-    <a href="#portfolio"> portfolio </a>
+    <a href="#portfolio"> work </a>
     <a href="#contact"> contact </a>
   </nav>
 
@@ -33,20 +33,36 @@
     <!-- - - - - - - - about - - - - - - - --->
     <section class="about grid">
 
-    <div class="grid aboutpic col-6">
-      <div class="col-8s">
+    <div class="grid col-6">
+      <div class="grid col-12 ">
+      </div>
+
+      <div class="col-4">
+      </div>
+
+      <div class="col-4 aboutpic">
+      </div>
+
+      <div class="col-4">
+      </div>
+
+      <div class="grid col-12">
       </div>
     </div>
-      <div class="col-6">
-      <h2> hey there! </h2>
-      <p> My name is Janelle Giovenco and I'm a freelance web developer in the NYC area. I'm currently studying Marketing Information Systems, Analytics, and Marketing at Villanova University School of Business. I began coding at the Institute of Code in Bali, Indonesia and have attended workshops in the Philly and NYC area to improve the skill. Outside of my love for business applied tech, I love to hike, travel, write, and root for my favorite sports teams! </p>
-      </div>
+
+    <div class="col-6 center-align about-txt">
+      <h3> hey there! </h3>
+      <hr>
+      <p> My name is Janelle Giovenco and I'm a freelance web developer in the NYC area. I'm currently studying Management Information Systems, Analytics, and Marketing at Villanova University School of Business. I began coding at the Institute of Code in Bali, Indonesia and have attended workshops in the Philly and NYC area to improve the skill. Outside of my love for business applied tech, I love to hike, travel, write, and root for my favorite sports teams! </p>
+    </div>
+
     </section>
 
     <!-- - - - - - - - what i do - - - - - - - --->
     <section class="grid widtext center-align">
       <div class="col-6">
-          <h3> What I do </h3>
+          <h3> what i do </h3>
+          <hr>
           <p> I combine my knowledge from my education at Villanova and Institute of Code to bring clients the best of modern and minimalistic marketing. I begin every project with a consultation, strategic brand planning, and rough draft of coding wireframes. Next, I move into the web development and design. Additionally, I help with SEO optimization, marketing campaigns, and social media outreach so that your business and website reach as many people as possible! </p>
           <a href="#contact"> contact me </a>
         </div>
@@ -87,7 +103,7 @@
 
     <!-- - - - - - - - portfolio - - - - - - - --->
     <section>
-      <h2 class="center-align"> Portfolio </h2>
+      <h3 class="center-align"> my work </h3>
       <hr>
 
       <div class="grid">
@@ -109,18 +125,24 @@
 
     <!-- - - - - - - - contact - - - - - - - --->
     <section>
-      <h2 class="center-align"> say hello </h2>
+      <h3 class="center-align"> say hello </h3>
       <hr>
 
       <div class="grid">
-        <div class="col-6">
-          <!-- INSERT FORM -->
+        <div class="col-6 form">
+          <h2>
+          <form method="POST" action="https://formspree.io/janellemgiovenco@gmail.com">
+            <input type="email" name="email" placeholder="your email">
+            <input type="text" name="name" placeholder="name">
+            <input type="text" name="company" placeholder="company">
+            <textarea name="message" placeholder="talk to me!"></textarea>
+            <button type="submit">submit</button>
+          </form>
         </div>
 
-        <div class="col-6">
-          <p> (973) 407-9924 </p>
+        <div class="col-6 contact">
           <p> janellegiovenco@gmail.com </p>
-          <a href="www.linkedin.com/janellegiovenco"> <img src="img/linked.png"> </a>
+          <a href="www.linkedin.com/janellegiovenco"> <img src="img/linked.png"> Connect With Me! </a>
         </div>
 
       </div>
