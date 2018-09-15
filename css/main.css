@@ -139,6 +139,9 @@ nav img {
 }
 
 /*PORTFOLIO */
+.portfolio img {
+  margin-top: 20px;
+}
 .portfolio a {
   text-decoration: none;
   color: black;
