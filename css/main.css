@@ -11,6 +11,14 @@
   text-align: center;
 }
 
+.right-align {
+  text-align: right;
+}
+
+.left-align {
+  text-align: left;
+}
+
 /* HEADER */
  header {
    min-height: 99vh;
@@ -30,15 +38,59 @@
  }
 
 
-/* NAVIGATIOn */
-
+/* NAVIGATION */
+nav {
+  padding: 10px;
+}
 nav a {
   color: black;
   text-decoration: none;
-  padding: 3px;
-
+  padding: 0px;
+  background-color: white;
+  margin: 10px;
 }
 
 nav a:hover {
   font-weight: bold;
+  border-bottom: black;
+}
+
+nav img {
+  height: 70px;
+  width: 70px;
+}
+
+/* About */
+.aboutpic {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/selfie.jpg);
+  min-height: 60vh;
+}
+
+/* ICONS */
+.widtext {
+  padding: 20px;
+  line-height: 1rem;
+}
+
+.widtext a {
+  text-decoration: none;
+  border-radius: 20px;
+  color: black;
+  border-color: black;
+  padding: 30px;
+  display: block;
+}
+
+.widtext a:hover {
+  background-color: black;
+  color: white;
+}
+
+.icons {
+  background-color: pink;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 20px;
 }
