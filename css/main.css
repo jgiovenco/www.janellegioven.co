@@ -9,6 +9,7 @@
 
 h1 {
   font-family: 'Homemade Apple', cursive;
+  color: #111E3E;
 }
 
 h2 {
@@ -19,6 +20,7 @@ h3 {
   font-size: 2rem;
   font-family: 'Homemade Apple', cursive;
   margin-bottom: 5px;
+  color: #111E3E;
 }
 
 p {
@@ -103,6 +105,8 @@ nav img {
   background-size: cover;
   background-image: url(../img/selfie.jpg);
   min-height: 50vh;
+  max-height: 60vh;
+  min-width: 30vw;
 }
 
 /* SERVICES */
@@ -165,7 +169,7 @@ nav img {
 
 .form {
   padding: 5px;
-  width: 50%;
+  width: 100%;
   margin: 6px 0;
   padding: 12px 10px;
   border-radius: 8px;
@@ -173,9 +177,9 @@ nav img {
 
 .form input,
 .form textarea {
-  width: 50%;
+  width: 100%;
   display:inline-block;
-  padding: 15px 8px;
+  padding: 10px 8px;
   margin-bottom: 1rem;
   border-radius: 5px;
   outline: none;
@@ -184,9 +188,9 @@ nav img {
 
 .form button {
   border-radius: 8px;
-  background-color: white;
-  color: black;
-  width: 40%;
+  background-color: black;
+  color: white;
+  width: 100%;
   padding: 3%;
   outline: none;
   border: 1px solid black;
@@ -195,12 +199,41 @@ nav img {
 }
 
 .form button:hover {
-  background-color: black;
+  background-color: #111E3E;
   color: white;
   border: 0;
 }
 
 .form textarea {
-  min-height: 200px;
+  min-height: 120px;
   min-width: 50%;
+}
+
+/* FOOTER */
+footer {
+  background-color: #F0F0F0;
+  color: grey;
+  font-weight: normal;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  border: 0;
+  padding: 0px;
+  color: #0077B7;
+  font-family: 'Homemade Apple', cursive;
+}
+
+footer a:hover {
+  border-bottom: 1px solid  #0077B7;
+}
+
+footer img {
+  margin-right: 25px;
+  padding: 0;
+}
+
+.squares {
+
 }
